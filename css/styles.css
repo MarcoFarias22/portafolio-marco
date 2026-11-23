@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(rgba(10, 12, 16, 0.82), rgba(10, 12, 16, 0.90)),
+              url('../assets/img/Heolstor.jpg') no-repeat center center fixed !important;
+  background-size: cover !important;
+}
+
+.card-img-top {
+  height: 190px;
+  object-fit: cover;
+  border-bottom: 1px solid #495057;
+}
+
+.card {
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: #0dcaf0 !important;
+}
